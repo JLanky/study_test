@@ -7,6 +7,7 @@
     <title>New store</title>
     <link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="lib/jquery.bxslider.min.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="row" style="display inline">
