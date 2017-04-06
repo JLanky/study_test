@@ -1,0 +1,5 @@
+host: testingd.ftp.ukraine.com.ua
+
+login: testingd_andrew
+
+pass: 0sm72ta1
