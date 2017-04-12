@@ -7,10 +7,19 @@
     <title>New store</title>
     <link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="lib/jquery.bxslider.min.css" rel="stylesheet"/>
-    <link href="css/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div class="row" style="display inline">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+
+<script type="application/javascript">
+    $(document).ready(function () {
+        $('.bxslider').bxSlider();
+    });
+</script>
+<div class="" style="display: inline-block">
 <ul class="hr">
     <li>Кошельки</li>
     <li>Сумки</li>
@@ -45,16 +54,9 @@
 </div>
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="vendors/bootstrap/js/bootstrap.min.js"></script>
-<script src="js/jquery.bxslider.min.js"></script>
 
-<script type="application/javascript">
-    $(document).ready(function () {
-        $('.bxslider').bxSlider();
-    });
-</script>
+
+
 
 </body>
 
